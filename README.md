@@ -1,27 +1,78 @@
-<h1 align="center">Hi 👋, I'm Parth</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+# 📂 File & PDF Uploader
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=gawasparth93&label=Profile%20views&color=0e75b6&style=flat" alt="gawasparth93" /> </p>
+A lightweight, responsive web application that allows users to seamlessly upload, validate, and preview general files and PDF documents. 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gawasparth93" alt="gawasparth93" /></a> </p>
+---
 
-- 🔭 I’m currently working on **SSPNM**
+## 🚀 Features
 
-- 🌱 I’m currently learning **GEn AI**
+| Feature | Description |
+| :--- | :--- |
+| **Drag & Drop** | Supports both click-to-upload and drag-and-drop file areas. |
+| **PDF Restrictions** | Enforces dedicated file size limits and extension filtering for PDF documents. |
+| **Live Preview** | Embedded in-browser PDF viewer and preview system for standard images. |
+| **Validation Engine** | Instant frontend validation for security, format restrictions, and sizing constraints. |
 
-- 👯 I’m looking to collaborate on **WEB3**
+---
 
-- 🤝 I’m looking for help with **Backend**
+## 🛠️ Tech Stack
 
-- 📫 How to reach me **test@gmail.com**
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6) |
+| **Icons & UI** | FontAwesome / TailwindCSS (Optional) |
+| **PDF Handling** | PDF.js (or native iframe embedding) |
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/apps/xamarin" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg" alt="xamarin" width="40" height="40"/> </a> </p>
+## 📋 File Upload Specifications
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gawasparth93&show_icons=true&locale=en&layout=compact" alt="gawasparth93" /></p>
+| Metric | General Files | PDF Documents |
+| :--- | :--- | :--- |
+| **Max File Size** | 5 MB | 10 MB |
+| **Allowed Formats** | `.png`, `.jpg`, `.jpeg`, `.txt` | `.pdf` |
+| **Multi-upload** | Supported (up to 5 files) | Supported |
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gawasparth93&show_icons=true&locale=en" alt="gawasparth93" /></p>
+---
+
+## 🔧 Installation & Local Setup
+
+Follow these steps to run this project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   ```
+
+2. **Navigate into the project directory:**
+   ```bash
+   cd YOUR-REPO-NAME
+   ```
+
+3. **Launch the application:**
+   * Open `index.html` directly in your browser, or
+   * If using VS Code, right-click `index.html` and select **Open with Live Server**.
+
+---
+
+## 💻 Code Architecture Overview
+
+* **`index.html`** - Contains the structured drag-and-drop landing interface.
+* **`style.css`** - Manages the responsive design, active drop-zone animations, and layout grids.
+* **`app.js`** - Controls file state logic, size checks, format restriction filters, and rendering.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
